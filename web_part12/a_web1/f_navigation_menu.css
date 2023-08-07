@@ -1,0 +1,78 @@
+.navbar{
+    background-color: burlywood;
+    border-radius: 10px;
+}
+.navbar ul {
+    border: 2px solid black; 
+    overflow: auto;
+    border-radius: 7px;
+    padding: 10px 10px;
+}
+.navbar ul li{
+    /* bakground removed when used float because it overflows from parent which is above func  so we make overflow auto of ul*/
+    float: left;
+    list-style: none;
+    margin: 7px 7px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: red;
+    padding: 1px;
+    border: none;
+    cursor: pointer;
+    /* font-size: 15px; */
+    border-radius: 1px;
+}
+.search{
+    float: right;
+    color: crimson;
+   padding: 5vpx 10px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 3px 17px;
+    width: 150px;
+    margin: 3px 50px;
+}
+        #picdiv{
+            margin: auto auto;
+             border: 3px solid black;
+             width: 100%;
+        }
+#mypic{
+    border: 3px ridge #007cffa8;
+    width: 200px;
+    margin: auto;
+    display:block ;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    /* display: inline; */
+    text-align: center;
+}
+/* Add this CSS code to your f_navigation_menu.css file */
+
+.container {
+    margin: 0px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    border: 2px ridge black;
+    background-color: #debc87;
+    margin: 10px 0px;
+    padding: 10px;
+    width:33%;    box-sizing: border-box;
+}
+
+
+

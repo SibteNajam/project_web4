@@ -1,0 +1,48 @@
+*{
+        box-sizing: border-box;
+}
+
+.container{
+width: 900px;
+border: 3px solid darkblue;
+/* margin: 1px 200px; */
+ margin: 33px auto; /*for centre */
+ 
+}
+.item{
+        border: 3px ridge black;
+        margin: 12px 3px;
+        padding: 12px 3px;
+      background-color: antiquewhite;        
+}
+#fruits{
+      float: left; 
+      width: 48%;
+
+}
+#computers{
+/* font-family: 'Pacifico', cursive;
+ font-size: 20px ;
+      line-height: 0.8em;
+      font-style: italics; */
+      float: right;
+      width: 48%;
+}
+#stationary{
+      /* float: rig; */
+      width: 100%;
+      clear: both;
+} 
+p {
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: navy;
+  text-decoration-style: dotted;
+}
+h1{
+    margin: auto;
+    width: 455px;  
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-style: dashed;
+}

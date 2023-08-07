@@ -1,0 +1,29 @@
+/* internnnal or external priority high wich came after
+oyu can use important for more priority  */
+
+/* b class */
+/* .redclr {
+    color: red;
+   
+} */
+/* or  b iD */
+#para1 {
+    color: red;
+}
+
+#para2 {
+    color: rgb(255, 0, 149);
+}
+
+/* a[target] {} */
+
+/* a[target="blank"] {} */
+
+a[href*="google"] {
+    color: orange;
+}
+
+a[href^="https"] {
+    /* all href start with httpsand & for end like .com   */
+    color: aquamarine;
+}

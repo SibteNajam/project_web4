@@ -1,0 +1,7 @@
+/*div.nav ul.item li{}  dont be over specific with selector in future you may change type instead div   so usee general with the help of their classes and ids*/
+.items{
+    background: yellow;
+}
+ .nav-item{
+    color: aqua;
+ }

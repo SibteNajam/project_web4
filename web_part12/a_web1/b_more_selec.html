@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            /* ::  for sudo element */
+            font-weight: bold;
+        }
+
+        p::first-line {
+            color: brown;
+        }
+
+        p::selection {
+            color: rgb(246, 255, 0);
+            background-color: pink;
+        }
+
+        p::before {
+            content: "...";
+            display: block;
+
+        }
+
+        p::after {
+            content: "...";
+            display: block;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, culpa?</p>
+    </section>
+</body>
+
+</html>

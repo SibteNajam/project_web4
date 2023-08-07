@@ -1,0 +1,17 @@
+ #p123 {
+    font-family: 'Pacifico', cursive;
+ font-size: 25px ;
+      line-height: 2em;
+      font-style: italics;
+      /* font-weight: bold; */
+}
+#hd1{
+      /* font-family: 'Exo 2', sans-serif; */
+      font-size: 50px ;
+      line-height: 0em;
+      /* font-style: italic; */
+      font-family: Calibri;
+      /* font-weight: bolder; */
+}
+
+  

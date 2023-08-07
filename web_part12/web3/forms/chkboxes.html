@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div> <!--we can also use disable in checkboxes
+        checked attribute already check it bydefault -->
+            <input type="checkbox" id="front-end">
+            <label class="label-inline"  for="front-end">front end</label>
+        </div>
+        <div>
+            <input type="checkbox" id="back-end">
+            <label class="label-inline"  for="back-end">Back end</label>
+        </div>
+
+
+        <!-- you can use radio button-->
+        <div>
+            <input type="radio" name="metal" id="silver">
+            <label for="silver" class="label-inline">Silver</label>
+        </div>
+        <div>
+            <input type="radio" name="metal" id="gold">
+            <label for="gold" class="label-inline">Gold</label>
+        </div>
+
+
+        <!-- slider -->
+        <input type="range" min="0" max="100" value="70">
+    </form>
+</body>
+</html>

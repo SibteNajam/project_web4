@@ -1,0 +1,75 @@
+.container1 {
+    border: 3px ridge red;
+    background-color: #87ebebbf;
+    padding: 15px 30px;
+    margin: 25px auto;
+    width: 800px;
+}
+
+#Read_more {
+    text-decoration: none;
+    background-color: thistle;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+#Contact_US {
+    background-color: thistle;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+#Read_more:hover,
+#Read_more:focus {
+    /*focus when use tab*/
+    background-color: rgba(255, 0, 203, 0.32);
+    color: rgba(243, 7, 7, 0.82);
+}
+
+#Contact_US:hover {
+    background-color: rgba(255, 0, 203, 0.32);
+    color: rgba(243, 7, 7, 0.82);
+}
+
+/* #Read_more:visited{
+    background-color: rgb(251, 255, 0);
+} */
+#Read_more:active {
+    background-color: darkgreen;
+}
+
+/* #Read_more:visited,
+a:link {
+    color: dodgerblue;
+} */
+
+#Contact_US:active {
+    background-color: darkgreen;
+
+}
+
+#sec1 p:first-of-type {
+    color: orange;
+}
+
+#sec1 p:last-of-type {
+    color: rgb(225, 255, 0);
+}
+#sec1 :last-child {
+    color: rgb(255, 0, 0);
+}
+
+
+ul li:nth-child(2n) {
+    color: blueviolet;
+}
+
+/* 
+div + p :  para that directly comes after div close    
+div > p: para that comes directly first inside div  */

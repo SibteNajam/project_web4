@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #products>p {
+            color: orange;
+        }
+
+        #products+p {
+            /* para that comes immediatel after products section or div w*/
+            color: rebeccapurple;
+        }
+
+        #products~p {
+            /* all para that come after products section*/
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="products">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ratione ipsum repellat? Laborum corporis nobis
+            asperiores optio expedita aliquid sapiente?</p>
+
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum tempore soluta dicta, modi magnam
+                pariatur enim beatae possimus a facilis ipsum nesciunt esse dolor rerum labore reiciendis eveniet
+                voluptates? Fugiat ex esse ducimus, cupiditate labore nesciunt beatae vitae quidem cum?</p>
+        </article>
+</body>
+
+</html>

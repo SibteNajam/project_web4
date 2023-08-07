@@ -1,0 +1,19 @@
+download prooperto just write download in anchor tab or image
+object-fit: cover   for images to  be stabel when we change size height widdth
+description:   dl->   dt for heading   dd for description
+semantic:  mark   to highlight content     time tag
+
+
+Normalize Css  to avoid different rendering issues for different web browsers
+
+
+
+use svg format for icons logos so that they remain sharp when sizing
+
+animate.style to copy animations 
+
+
+
+         styles
+         create logical section for styles
+         avoid over specific selector

@@ -1,0 +1,43 @@
+#scndp{
+    color:rgb(123,23,45);
+    background-color: darkcyan;
+    height: 100Px;
+  width: 455px;
+  border-top: 2px ridge darkblue ;
+  border-left: 2px ridge darkblue ;
+  border-right: 2px ridge darkblue ;
+  border-bottom: 2px ridge darkblue ;
+    border-top-right-radius: 20px;
+}
+#firstp{
+    color: darkorchid;
+  height: 100px;
+  width: 455px;
+  border-top: 3px ridge black;
+  background-color: chartreuse;
+}
+#thirdp{
+   height: 210Px;
+  width: 380px;
+  background-image: url("https://www.codewithharry.com/_next/image/?url=https%3A%2F%2Fcwh-full-next-space.fra1.digitaloceanspaces.com%2Fvideoseries%2Fultimate-js-tutorial-hindi-1%2FJS-Thumb.jpg&w=384&q=75");
+  border: 2px ridge red;
+background-repeat: no-repeat;
+/* background-position-x: center;
+background-position-y:  top; */
+
+ background-position:top top;
+
+}
+/* color: #e97a8fde;;font-style: oblique;
+font-size: 20px;
+font-weight: 1000;
+font-variant: small-caps;
+background-color: #c1e6ad;
+ */
+/* border-color: mediumspringgreen;
+border-style: ridge;
+border-width: 4px; orr below i sigle line*/
+/* border: 4px ridge mediumspringgreen;
+border-top-left-radius: 24px;
+border-radius: 8px;
+} */

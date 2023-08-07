@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+        
+            /* 3x2 */
+
+            /* grid-template-rows: 100px 100px 100px;      or below*/
+            /* grid-template-rows: repeat(3,100px); */
+
+
+            /* grid-template-columns: 100px 100px;         or below */
+            /* grid-template-columns: repeat(2,100px); */
+
+/* or */
+        display: grid;
+        grid-template: 100px auto 100px / 30fr 70fr;
+        grid-template-areas:
+            "header header"
+            "sidebar main"
+            "footer footer";
+            row-gap: 5px;
+            column-gap:10px ;
+            border: 3px solid red;
+            /* justify-items: stretch;
+            align-items: stretch; */
+            height: 100vh;
+
+
+                /* move grid */
+            /* justify-content: center;
+            align-content: center; */
+
+            /* items for individual items inside and content for whole class in this case content for whole grid wich is contaoner  and items for boxes inside container */
+        }
+
+        .box{
+            /*      when width and height set strect cannot be applyable
+          width: 5rem;    
+          height: 5rem; */
+            background-color: gold;
+        }
+        #box1{
+            /* grid-column: 1 / span2;
+            grid-row: 1/3 ;
+            or */
+        /* grid-area: 1/1/ 1/3; */
+        /* grid-area; start end  */
+
+        grid-area: header;
+    }
+    #boxB{
+        grid-area: sidebar;
+        
+    }
+    #boxC{
+        grid-area: main;
+    }
+    #boxlast{
+        /* grid-row: 3;
+        grid-column: 1/3; */
+        grid-area: footer;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="box" id="box1">A</div>
+       <div class="box" id="boxB">B</div>
+       <div class="box" id="boxC">C</div>
+       <div class="box" id="boxlast">D</div>
+</div>
+</body>
+</html>

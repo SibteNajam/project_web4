@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            height: 50vh;
+            display: flex;
+            border: 3px solid lightblue;
+            /* flex-direction:column; */
+            flex-direction:row;
+            /* justify-content: flex-end; move at end */
+            justify-content: center; /*move at center*/
+            align-items: center; /*move at center vertically*/
+
+        }
+        .box{
+            flex-basis: 20rem;/* depends on flex direction if flex direction is row then translate the width property */
+            width: 5rem;
+            height: 5rem;
+            background-color: aquamarine;
+            margin: 2rem;
+        }
+        .box1{
+            align-self: auto;
+            flex-basis: 10rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+</body>
+</html>

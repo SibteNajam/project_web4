@@ -1,0 +1,61 @@
+.container {
+    border: 2px solid rebeccapurple;
+    background-color: aqua;
+    height: 3444px;
+}
+body{
+    margin: 10px;
+    height: 2000vh;
+}
+
+.box {
+    display: block;
+    width: 170px;
+    height: 150px;
+    border: 3px solid blue;
+    margin: 2px;
+}
+
+#box1 {
+    /* position: absolute; */
+    background-color: rgb(43, 174, 226);
+    position: relative;
+    /* top: 49px; */
+    left: 5rem;
+    top: 6rem;
+    z-index: 12;
+}
+
+#box2 {
+    /* z index work for position relt aabsolute sticky fixed */
+    position: absolute;
+    background-color: blueviolet;
+    /* bottom: 0px;
+    right: 0px; */
+    z-index: 10;
+    /* visibility: hidden; */
+    /* display: none; */
+
+
+}
+
+#box3 {
+    background-color: rgb(223, 226, 43);
+    /* relative: relative to its originall position it moves where you want to 
+    absolute: wrt parent*/
+    position: fixed;
+    /* top: 34px;
+    left: 34px; */
+
+
+    /* position: fixed;
+    right: 4px;
+    bottom: 3px; */
+
+    position: relative;
+    top: 0px;
+}
+
+#box4 {
+    background-color: rgb(226, 43, 43);
+}

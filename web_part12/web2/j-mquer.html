@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+display: flex;
+flex-direction: column;
+        }
+        .box{
+            background-color: rgb(206, 231, 95);
+            padding: 2rem;
+        }
+        .box:nth-of-type(2){
+            background-color: rgb(0, 225, 255);
+        }
+        @media screen and (min-width: 600px) and (max-width:900px) {
+            .container{
+            display: flex;
+            flex-direction: row;
+            }
+            
+        }
+        @media screen and (min-width: 900px)  {
+            .container{
+            display: flex;
+            flex-direction: row;
+            }
+            .box{
+                background-color: orange;
+            }
+            
+        }
+        @media print{
+            body{
+                font-size:20px ;
+                padding: 1cm;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, facere inventore, velit pariatur tenetur nulla, quo et alias dolore voluptates praesentium a? Odio officia reiciendis magni incidunt distinctio et ratione?</p></div>
+
+        <div class="box"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi eaque ipsa soluta expedita atque nihil voluptatibus laudantium vero sit molestiae ullam ratione earum illo consequuntur, repellat fugit. Dicta sint corrupti architecto veniam. Officiis, animi?</p></div>
+    </div>
+</body>
+</html>

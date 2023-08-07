@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* we use rem and it will adjust according to root whih is html tag written below */
+        html {
+            font-size: 25px;
+        }
+
+        .container {
+            font-size: 10px;
+            border: 2px solid red;
+
+            /* width: 400px; */
+            width: 100vw;
+            /* view width*/
+
+
+            /* height: 300px; */
+            height: 100vh;
+            /* view height */
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #First {
+            font-size: 4em;/*em wrt to its paent*/
+            padding: 3em;   /*3em mean 3 times font size  : 3*4*10  */
+        }
+
+        #Second {
+            font-size: 3rem;/* rem wrt html tag (root element) f someone increase default size of browser then html tag automaticallly changes wrt to it*/
+            padding: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="First">This is first heding</h1>
+        <h1 id="Second">This is Second </h1>
+        <h1 id="third">This is Third</h1>
+    </div>
+</body>
+
+</html>
